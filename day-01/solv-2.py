@@ -28,7 +28,7 @@ with open(INPUT_FILE_NAME, "r") as input_file:
                 continue
 
             for num, num_word in enumerate(num_words, 1):
-                if line[i:i+len(num_word)] == num_word:
+                if line[i : i + len(num_word)] == num_word:
                     if first == -1:
                         first = num
                     last = num
